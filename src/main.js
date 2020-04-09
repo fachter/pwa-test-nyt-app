@@ -8,6 +8,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import VueFilterDateFormat from "vue-filter-date-format";
 import { ValidationProvider, extend, ValidationObserver } from "vee-validate";
 import { required } from "vee-validate/dist/rules";
+import './registerServiceWorker'
 Vue.use(VueFilterDateFormat);
 Vue.use(BootstrapVue);
 extend("required", required);
